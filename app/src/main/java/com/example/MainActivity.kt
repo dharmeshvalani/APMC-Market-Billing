@@ -21,11 +21,20 @@ import com.example.ui.components.ToastNotification
 import com.example.ui.screens.*
 import com.example.ui.theme.MyApplicationTheme
 import kotlinx.coroutines.flow.collectLatest
+import com.example.supabase.SupabaseClient
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+          // Initialize Supabase
+        val supabase = SupabaseClient.client
+
+        setContent {
+            App()
+        }
+    }
+}
 
         // Initialize Room Database, Repository, AuthService, and ViewModel
         val database = AppDatabase.getDatabase(applicationContext)
