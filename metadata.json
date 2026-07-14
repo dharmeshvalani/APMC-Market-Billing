@@ -1,0 +1,6 @@
+{
+  "name": "APMC Market Billing",
+  "description": "A modern, premium business dashboard, billing, invoicing, and ledger system for APMC market commission agents and merchants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

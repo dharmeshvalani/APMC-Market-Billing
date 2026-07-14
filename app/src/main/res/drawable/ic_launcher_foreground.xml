@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Receipt Sheet Shadow / Outline -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M34,26 L66,26 C69,26 71,28 71,31 L71,82 L65,77 L59,82 L53,77 L47,82 L41,77 L35,82 L35,31 C35,28 37,26 34,26 Z" />
+        
+    <!-- Main Billing Invoice Sheet (Centered & Bold) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,22 L70,22 C72,22 74,24 74,26 L74,76 L68,71 L62,76 L56,71 L50,76 L44,71 L38,76 L38,26 C38,24 40,22 38,22 Z" />
+
+    <!-- Checklist / Text lines on Billing Sheet -->
+    <path
+        android:fillColor="#004D30"
+        android:pathData="M44,32 L64,32 A1.5,1.5 0 0 1 64,35 L44,35 A1.5,1.5 0 0 1 44,32 Z" />
+    <path
+        android:fillColor="#004D30"
+        android:pathData="M44,40 L60,40 A1.5,1.5 0 0 1 60,43 L44,43 A1.5,1.5 0 0 1 44,40 Z" />
+    <path
+        android:fillColor="#004D30"
+        android:pathData="M44,48 L64,48 A1.5,1.5 0 0 1 64,51 L44,51 A1.5,1.5 0 0 1 44,48 Z" />
+    <path
+        android:fillColor="#004D30"
+        android:pathData="M44,56 L54,56 A1.5,1.5 0 0 1 54,59 L44,59 A1.5,1.5 0 0 1 44,56 Z" />
+
+    <!-- Mini check symbol -->
+    <path
+        android:fillColor="#FFD370"
+        android:pathData="M62,55 L65,58 L70,53"
+        android:strokeColor="#004D30"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>
