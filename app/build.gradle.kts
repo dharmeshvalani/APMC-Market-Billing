@@ -82,6 +82,14 @@ googleServices { missingGoogleServicesStrategy = MissingGoogleServicesStrategy.W
 // Some unused dependencies are commented out below instead of being removed.
 // This makes it easy to add them back in the future if needed.
 dependencies {
+
+  implementation("io.github.jan-tennert.supabase:postgrest-kt:3.0.0")
+  implementation("io.github.jan-tennert.supabase:auth-kt:3.0.0")
+  implementation("io.github.jan-tennert.supabase:storage-kt:3.0.0")
+  implementation("io.github.jan-tennert.supabase:realtime-kt:3.0.0")
+  implementation("io.github.jan-tennert.supabase:compose-auth:3.0.0")
+  implementation("io.ktor:ktor-client-okhttp:3.0.3")
+
   implementation(platform(libs.androidx.compose.bom))
   implementation(platform(libs.firebase.bom))
   // implementation(libs.accompanist.permissions)
